@@ -65,6 +65,7 @@
     </changeSet>
     
     <changeSet id="3" author="flowable">
+        <validCheckSum>ANY</validCheckSum>
         <createTable tableName="ACT_CO_STORAGE_ITEM">
             <column name="ID_" type="varchar(255)">
                 <constraints primaryKey="true" nullable="false" />
